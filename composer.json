@@ -1,0 +1,31 @@
+{
+    "name": "brianalzatedeveloper/apismsrest",
+    "description": "This Package contains methods to connet to api sms correctly, send and receive information securetly",
+    "type": "library",
+    "version": "v1.0.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Brian Alzate",
+            "email": "brianalzate97@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "BrianAlzateDeveloper\\ApiSmsRest\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "BrianAlzateDeveloper\\ApiSmsRest\\Test\\": "test"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
